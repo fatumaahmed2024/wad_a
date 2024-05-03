@@ -1,6 +1,7 @@
 body{
     background-color: rgba(240, 237, 237);
-    background-image: url("images/bg1.jpg");
+    background-image: url("images/pic.jpg");
+
 }
 .body_index_bg{
     background-color: brown;
@@ -34,4 +35,27 @@ tr:nth-child(odd){
 }
 tr:hover{
     background-color: rgb(205, 255, 232);
+}
+.contacts_form label{
+    font-size: 1.8em;
+}
+input[type=text], [type =email] , [type=textarea]{
+    width: 60%;
+    padding: 12px 16px;
+    font-size: 1.6em;
+    border-radius: 4px;
+    border: 2px solid #373737;
+    box-sizing: border-box;
+    margin: 8px 0;
+}
+input[type=submit]{
+
+ width: 40%;
+    padding: 12px 16px;
+    font-size: 1.6em;
+    border-radius: 4px;
+    background-color: blue;
+    color: azure;
+    box-sizing: border-box;
+    margin:8px 0 ;
 }
