@@ -3,14 +3,55 @@ body{
     
 
 }
+.toplink{
+    background-color: antiquewhite;
+    overflow: hidden;
+}
+.toplink a{
+    color: azure;
+    text-decoration: none;
+    padding: 14px;
+    display: block;
+    float: left;
+    text-align: left;
+}
+.toplink a:hover{
+    color: rgb(23, 22, 22, 0.854);
+    background-color: azure;
+    text-decoration: none;
+}
+.toplink-right{
+    float: right;
+}
+.banner{
+    background-color: rgb(83, 81, 78);
+    padding: 20px;
+    text-align: center;
+    color: rgb(233, 233, 233);
+}
+.row::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.content{
+    float: left;
+    width: 70%;
+    padding: 15px;
+}
+.side_bar{
+    float: left;
+    width: 30%;
+    padding: 15px;
+}
 footer{
     text-align: center;
-    padding: 5px;
-    background-color: darkgreen;
+    padding: 20px;
+    background-color: rgb(212, 137, 24);;
     color: white;
 }
 .body_index_bg{
-    background-color: whitesmoke;
+    background-color: rgb(24, 212, 193);
     background-image: url("images/sam.jpg");
 }
 h1{
