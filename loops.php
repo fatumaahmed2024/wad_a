@@ -10,3 +10,14 @@ while($y < 2030){
     $y++;
 }*/
 ?>
+h3>do-while loop</h3>
+<?php
+
+//do-while loop
+
+$d= 1;
+do{
+    print $d . "<br>";
+    $d++;
+}while($d<31);
+?>
