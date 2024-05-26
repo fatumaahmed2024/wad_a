@@ -40,7 +40,7 @@ $user_details=[
         "phone" => [
             "Home" =>"+2546789098",
             "Work" => "+2543678543",
-            "Mobile" => "+25431445624",
+            "Mobile" => "+25445678920",
 
         ]
         ),
@@ -51,7 +51,7 @@ $user_details=[
         "email" =>"AOkama@yahoo.com",
         "phone" => [
             "Home" =>"+2546789098",
-            "Work" => "+2543678543",
+            "Work" => "+25476223450",
             "Mobile" => "+25431445624",
 
         ]
@@ -62,7 +62,7 @@ $user_details=[
         "address" => "Mada",
         "email" =>"AOkama@yahoo.com",
         "phone" => [
-            "Home" =>"+2546789098",
+            "Home" =>"+254788889034",
             "Work" => "+2543678543",
             "Mobile" => "+25431445624",
 
