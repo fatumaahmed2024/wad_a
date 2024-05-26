@@ -75,10 +75,11 @@ $months=["January","February","March","April", "May",
 
 <form action="">
   <select name="" id="">
-    <option value=print "option value =('y)' "</option>
+    <option value=<?php print?> </option>
     <?php
     foreach($months AS $month){
         print "<option value=''>$month</option>";
     }
     ?>
   </select>
+  </form>
