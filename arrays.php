@@ -8,7 +8,9 @@ print_r($colors);
 ?>
 <br>
 <?php
+$user = array("Alex", "Peter", "Ann");
 
+print $user[2];
 
 ?>
 
