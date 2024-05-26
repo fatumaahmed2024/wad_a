@@ -12,3 +12,5 @@ print date ('1');//Displaying the current day of the week
 print "<br>";//Using HTML <br> to break a line
 print date('1,F js Y', strtotime('+5 months'));
 print "<br>";//Using HTML <br> to break a line
+print "Today is ".date('1, F js Y H:i:s');
+print "<br>";//Using HTML <br> to break a line
