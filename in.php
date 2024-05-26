@@ -34,4 +34,8 @@ echo $fname . " was born in ". $yob;
 print "<br>";//Using HTML <br> to break a line
 
 echo $fname ." was actually born on " .date('1, F js Y', strtotime($user_dob));
+print "<br>";//Using HTML <br> to break a line
+
+$current_year= date('Y');
+echo $current_year;
 
