@@ -14,3 +14,8 @@ print date('1,F js Y', strtotime('+5 months'));
 print "<br>";//Using HTML <br> to break a line
 print "Today is ".date('1, F js Y H:i:s');
 print "<br>";//Using HTML <br> to break a line
+
+//Creating (Declaring) a varible 
+
+$fname ="Alex Okama";//Declaring of a variable or a string or a group of words
+
