@@ -25,3 +25,9 @@ print "<br>";//Using HTML <br> to break a line
 
 print $fname;
 
+print "<br>";//Using HTML <br> to break a line
+
+$user_dob ="$yob-08-16";
+
+echo $fname . "was born in ". $yob;
+
