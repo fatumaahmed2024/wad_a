@@ -36,3 +36,13 @@ $months=["January","February","March","April", "May",
 /*foreach($months AS $month){
     print $month . "<br>";
 }*/
+?>
+<form action="">
+  <select name="" id="">
+    <option value="">--Months--</option>
+    <?php
+    foreach($months AS $month){
+        print "<option value=''>$month</option>";
+    }
+    ?>
+  </select>
