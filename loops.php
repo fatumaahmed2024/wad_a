@@ -21,3 +21,9 @@ do{
     $d++;
 }while($d<31);
 ?>
+<h4>for loop</h4>
+<?php
+for($f=45; $f<55; $f++){
+    print $f ."<br>";
+}
+?>
