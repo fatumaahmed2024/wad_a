@@ -42,3 +42,20 @@ print "<br>";//Using HTML <br> to break a line
 
 $age = $current_year-$yob;//Using subtraction to find the age.
 print "45+96";
+print "<br>";//Using HTML <br> to break a line
+
+print 45+98;
+print "<br>";//Using HTML <br> to break a line
+
+$birthday= new DateTime($user_dob);
+$today = new DateTime('today');
+
+$interval = $birthday->diff($today);
+
+echo '<pre>';
+print_r($interval);
+echo '</pre>';
+print "<br>";//Using HTML <br> to break a line
+
+print $fname . " is, actually, " . $interval->y . " years " .$interval->m . " months, and " . $interval->d . " days old.";
+
