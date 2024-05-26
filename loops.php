@@ -27,3 +27,12 @@ for($f=45; $f<55; $f++){
     print $f ."<br>";
 }
 ?>
+<h4>Foreach</h4>
+<?php
+$months=["January","February","March","April", "May",
+"June","July", "August", "September", "October"," November", "December"
+];
+
+/*foreach($months AS $month){
+    print $month . "<br>";
+}*/
