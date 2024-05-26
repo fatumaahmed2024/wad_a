@@ -57,3 +57,18 @@ $months=["January","February","March","April", "May",
     $y++;
 }
     ?>
+     </select>
+
+<select name="" id="">
+  <option value="">--Day--</option>
+  <?php
+ //do-while loop
+
+  $d= 1;
+  do{
+  print "<option value=''>$d</option>" ;
+  $d++;
+  }while($d<32);
+  ?>
+</select>
+</form>
