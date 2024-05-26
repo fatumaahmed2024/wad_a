@@ -69,4 +69,13 @@ if($interval->y > $adult_age){
 }
 print "<br>";//Using HTML <br> to break a line
 
+//Variable characteristics
+$last_name = "Okama";
+echo "My last name is $last_name";
+print "<br>";//Using HTML <br> to break a line
+
+echo 'My last name is ' .$last_name;
+print "<br>";//Using HTML <br> to break a line
+
+
 
