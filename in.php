@@ -38,4 +38,7 @@ print "<br>";//Using HTML <br> to break a line
 
 $current_year= date('Y');
 echo $current_year;
+print "<br>";//Using HTML <br> to break a line
 
+$age = $current_year-$yob;//Using subtraction to find the age.
+print "45+96";
