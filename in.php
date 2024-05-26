@@ -77,5 +77,19 @@ print "<br>";//Using HTML <br> to break a line
 echo 'My last name is ' .$last_name;
 print "<br>";//Using HTML <br> to break a line
 
+echo "Today is " .date('1');
+print "<br>";//Using HTML <br> to break a line
+
+$call['lname'] = "Okama";
+print $call['lname'];
+print "<br>";//Using HTML <br> to break a line
+
+define('LNAME', 'Okama');
+echo LNAME;
+
+?>
+<br>
+<br>
+<br>
 
 
