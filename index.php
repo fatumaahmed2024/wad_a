@@ -7,8 +7,10 @@
         <link rel="stylesheet" href="style.css">
 
 
-        <head>
+</head>
         <body >
+        <?php include_once ("templetes/nav.php");?>    
+        <?php require_once ("templetes/heading.php");?>    
             
         
              <div class="toplink">   
@@ -66,7 +68,7 @@
 
 
                         <div class="footer">
-                            Copyright Fatuma Ahmed &copy; Allrights reserverd
+                            Copyright CuppaCorner &copy; Allrights reserverd
                         </div>    
                 </body>
                 

@@ -22,6 +22,7 @@ body{
 }
 .toplink-right{
     float: right;
+    overflow: hidden;
 }
 .banner{
     background-color: rgb(83, 81, 78);

@@ -60,7 +60,7 @@
 
 
         <div class="footer">
-            Copyright Fatuma Ahmed &copy; Allrights reserverd
+            Copyright CuppaCorner &copy; Allrights reserverd
         </div>    
 
   

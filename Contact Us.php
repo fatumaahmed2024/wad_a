@@ -61,7 +61,7 @@
           <!--Heading 2 ends here-->
 
          <div class="footer">
-            Copyright Fatuma Ahmed &copy; Allrights reserverd
+            Copyright CuppaCorner &copy; Allrights reserverd
         </div>    
 </body>
 </html>
