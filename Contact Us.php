@@ -1,6 +1,6 @@
 
-<?php include_once ("templetes/heading.php");?>    
-<?php require_once ("templetes/nav.php");?>    
+<?php include_once ("templetas/heading.php");?>    
+<?php require_once ("templates/nav.php");?>    
    
          <div class="banner">
             <h1 >CuppaCorner Cafe</h1> 

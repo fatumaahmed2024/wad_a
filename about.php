@@ -1,6 +1,6 @@
 <?php require_once("Includes/db_connect.php"); ?>
-<?php include_once ("templetes/heading.php");?> 
-<?php require_once ("templetes/nav.php");?>    
+<?php include_once ("templates/heading.php");?> 
+<?php require_once ("templates/nav.php");?>    
    
          <div class="banner">
             <h1>About Us</h1>
@@ -10,10 +10,6 @@
                <div class="content">
                </div>
 
-    
-    
-
-    
     
     <p>At CuppaCorner, we believe that every cup of coffee tells a story. 
         Our journey began with a passion for creating a community hub where
