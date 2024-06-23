@@ -1,4 +1,4 @@
-
+<?php require_once("Includes/db_connect.php"); ?>
 <?php include_once ("templetes/heading.php");?> 
 <?php require_once ("templetes/nav.php");?>    
    
