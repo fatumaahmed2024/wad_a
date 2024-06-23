@@ -1,15 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body >
-    
-    
 
+<?php include_once ("templetes/heading.php");?> 
 <?php require_once ("templetes/nav.php");?>    
    
          <div class="banner">
@@ -36,21 +26,5 @@
               environment for all. Join us as we continue to share our love for great food,
                excellent coffee, and unforgettable moments.</p>
 <br>
-<div class="side_bar">
-    <!--Heading 2 starts here-->
-    <h2>Welcome</h2>
-    <p> We take pride in our commitment
-        to sustainability, supporting local farmers, and creating a warm and inclusive
-         environment for all. Join us as we continue to share our love for great food,
-          excellent coffee, and unforgettable moments.</p>
-        <!--Heading 2 ends here-->
- </div>
-
-
-        <div class="footer">
-            Copyright CuppaCorner &copy; Allrights reserverd
-        </div>    
-
-  
-</body>
-</html>
+<?php include_once("templates/side_bar.php")?>                
+<?php include_once("templates/footer.php")?>

@@ -20,16 +20,8 @@
                  and how we can make your visit truly special.</p> 
                  
                  
-                 <div class="side_bar">
-                    <!--Heading 2 starts here-->
-                    <h2>Welcome</h2>
-                    <p>Explore our website to discover more about our menu, events,
-                        and how we can make your visit 
-                        truly special.</p>
-                        <!--Heading 2 ends here-->
-                 </div>
-
-
-                        <?php include_once("templetes/footer.php");?>
+ <?php include_once("templates/side_bar.php")?>                
+<?php include_once("templates/footer.php")?>
+                       
                 
                 

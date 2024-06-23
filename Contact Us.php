@@ -1,15 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body >
-    
-    
 
+<?php include_once ("templetes/heading.php");?>    
 <?php require_once ("templetes/nav.php");?>    
    
          <div class="banner">
@@ -36,20 +26,5 @@
        You can also swing by our cafe at:
        123 Coffee Street, Nairobi, Kenya
     </p>
-    <div class="side_bar">
-        <!--Heading 2 starts here-->
-        
-           
-    <h2>Social Media
-        <p>And hey, we're pretty active on social media too! 
-            Check us out on Instagram (@CuppaCorner) and Facebook 
-            (Cuppa Corner) for all the latest updates and 
-            mouthwatering food pics!</p>
-         </h2>
-          <!--Heading 2 ends here-->
-
-         <div class="footer">
-            Copyright CuppaCorner &copy; Allrights reserverd
-        </div>    
-</body>
-</html>
+    <?php include_once("templates/side_bar.php")?>                
+<?php include_once("templates/footer.php")?>

@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Order</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body >
-    
-    
-
+<?php include_once ("templetes/heading.php");?>   
 <?php require_once ("templetes/nav.php");?>    
    
          <div class="banner">
@@ -60,8 +49,5 @@ id="" cols="30" rows="10"></textarea>
 <br><br>
 <input type="submit" value="Send Feedback">
 
-<div class="footer">
-  Copyright CuppaCorner &copy; Allrights reserverd
-</div> 
-</body>
-</html>
+               
+<?php include_once("templates/footer.php")?>
