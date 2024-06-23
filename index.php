@@ -1,35 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html;
-        charset=UTF-8">
-        <title> Welcome - Document </title>
-        <link rel="stylesheet" href="style.css">
-
-
-</head>
-        <body >
-        <?php include_once ("templetes/nav.php");?>    
-        <?php require_once ("templetes/heading.php");?>    
-            
-        
-             <div class="toplink">   
-            <a href="./">Home</a> 
-            <a href="about.html">About Us</a>  
-            <a href="Menu.html"> Menu </a> 
-             <a href="Order.html"> Order </a> 
-            <a href="Gallery.html">  Gallery</a> 
-             </div>
-
-
-             <div class="toplink-right">
-            <a href="Feedback.html"> Feedback </a> 
-            <a href="Contact Us.html" > Contact Us </a>
-
-             </div>  
-             
-               
-
+<?php include_once ("templetes/heading.php");?>    
+<?php require_once ("templetes/nav.php");?>    
+   
                <div class="banner">
              <h1 >CuppaCorner Cafe</h1> 
             </div>
@@ -38,16 +9,8 @@
                 <div class="content">
                 </div>
 
-           
-
-            
-                
-
-                
              <h1>Introduction</h1>
              
-
-
              <p>Welcome to Cuppa Corner! We are a cozy and vibrant cafe located in the hearts of Nairobi. 
                 Step into our warm and inviting space, where the aroma of freshly brewed coffee fills the air.
                 Indulge in our delectable menu, carefully crafted with love and passion. From hearty breakfast 
@@ -67,12 +30,6 @@
                  </div>
 
 
-                        <div class="footer">
-                            Copyright CuppaCorner &copy; Allrights reserverd
-                        </div>    
-                </body>
-                
-                </html>
-                
+                        <?php include_once("templetes/footer.php");?>
                 
                 

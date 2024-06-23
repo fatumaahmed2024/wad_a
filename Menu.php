@@ -10,20 +10,8 @@
     
     
 
-    <div class="toplink">   
-        <a href="./">Home</a> 
-        <a href="about.html">About Us</a>  
-        <a href="Menu.html"> Menu </a> 
-         <a href="Order.html"> Order </a> 
-        <a href="Gallery.html">  Gallery</a> 
-         </div>
-
-
-         <div class="toplink-right">
-        <a href="Feedback.html"> Feedback </a> 
-        <a href="Contact Us.html" > Contact Us </a>
-
-         </div>  
+<?php require_once ("templetes/nav.php");?>    
+   
          <div class="banner">
             <h1>Menu</h1>
            </div>
