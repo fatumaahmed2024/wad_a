@@ -1,3 +1,4 @@
+<?php require_once("Includes/db_connect.php"); ?>
 <?php include_once ("templates/heading.php");?>   
     
 <?php require_once ("templates/nav.php");?>    

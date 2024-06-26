@@ -85,7 +85,7 @@ tr:nth-child(odd){
 tr:hover{
     background-color:  white;
 }
-.contacts_form label{
+/*.contacts_form label{
     font-size: 1.8em;
 }
 input[type=text], [type =email] , [type=textarea]{
@@ -107,4 +107,4 @@ input[type=submit]{
     color: azure;
     box-sizing: border-box;
     margin:8px 0 ;
-}
+}*/
