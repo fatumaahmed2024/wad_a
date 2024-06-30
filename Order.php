@@ -3,19 +3,26 @@
  include_once ("templates/heading.php");   
 require_once ("templates/nav.php"); 
 
+if(isset($_POST["place_order"])){
+$fn=$_POST["fullname"];
+$number=$_POST["number"];
+$mail=$_POST["email"];
+$message=$_POST["order_message"];
+$subject=$_POST["Destination"];
 
-$sql = "INSERT INTO MyGuests (firstname, lastname, email)
-VALUES ('John', 'Doe', 'john@example.com')";
+$insert_message = "INSERT INTO messages (sender_name, sender_phone_number, sender_email,text_message,Destination)
+VALUES ('$fn','$number','$mail', '$message', '$subject')";
 
-if ($conn->query($sql) === TRUE) {
+if ($conn->query($insert_message) === TRUE) {
   echo "New record created successfully";
 } else {
-  echo "Error: " . $sql . "<br>" . $conn->error;
+  echo "Error: " . $insert_message . "<br>" . $conn->error;
+}
 }
 ?>
    
          <div class="banner">
-            <h1> Place Your Order</h1>
+            <h1> Place Order</h1>
            </div>
            <div class="row">
                <div class="content">

@@ -1,6 +1,7 @@
 body{
     background-color: whitesmoke;
-    
+    margin: 0;
+    box-sizing: border-box;
 
 }
 .toplink{
@@ -30,22 +31,22 @@ body{
     text-align: center;
     color: rgb(233, 233, 233);
 }
-.row::after{
+.row:after{
     content: "";
     display: block;
     clear: both;
 }
 .content{
     float: left;
-    width: 70%;
+    width: 47%;
     padding: 15px;
 }
 .side_bar{
     float: left;
-    width: 30%;
+    width: 47%;
     padding: 15px;
 }
-footer{
+.footer{
     text-align: center;
     padding: 20px;
     background-color: rgb(24, 127, 212);;
@@ -85,7 +86,7 @@ tr:nth-child(odd){
 tr:hover{
     background-color:  white;
 }
-/*.contacts_form label{
+.order_form label{
     font-size: 1.8em;
 }
 input[type=text], [type =email] , [type=textarea]{
@@ -107,4 +108,4 @@ input[type=submit]{
     color: azure;
     box-sizing: border-box;
     margin:8px 0 ;
-}*/
+}
