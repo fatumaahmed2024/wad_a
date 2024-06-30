@@ -4,21 +4,21 @@
 require_once ("templates/nav.php"); 
 
 if(isset($_POST["place_order"])){
-$fn=$_POST["fullname"];
-$number=$_POST["number"];
-$mail=$_POST["email"];
-$message=$_POST["order_message"];
-$subject=$_POST["Destination"];
-
-$insert_message = "INSERT INTO messages (sender_name, sender_phone_number, sender_email,text_message,Destination)
-VALUES ('$fn','$number','$mail', '$message', '$subject')";
-
-if ($conn->query($insert_message) === TRUE) {
-  echo "New record created successfully";
-} else {
-  echo "Error: " . $insert_message . "<br>" . $conn->error;
-}
-}
+    $fn=$_POST["fullname"];
+    $number=$_POST["number"];
+    $mail=$_POST["email"];
+    $message=$_POST["order_message"];
+    $subject=$_POST["Destination"];
+    
+    $insert_message = "INSERT INTO messages (sender_name, sender_phone_number, sender_email,text_message,Destination)
+    VALUES ('$fn','$number','$mail', '$message', '$subject')";
+    
+    if ($conn->query($insert_message) === TRUE) {
+      echo "New record created successfully";
+    } else {
+      echo "Error: " . $insert_message . "<br>" . $conn->error;
+    }
+    }
 ?>
    
          <div class="banner">
