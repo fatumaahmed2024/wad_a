@@ -4,14 +4,14 @@
 require_once ("templates/nav.php"); 
 
 
-/*$sql = "INSERT INTO MyGuests (firstname, lastname, email)
+$sql = "INSERT INTO MyGuests (firstname, lastname, email)
 VALUES ('John', 'Doe', 'john@example.com')";
 
 if ($conn->query($sql) === TRUE) {
   echo "New record created successfully";
 } else {
   echo "Error: " . $sql . "<br>" . $conn->error;
-}*/
+}
 ?>
    
          <div class="banner">
