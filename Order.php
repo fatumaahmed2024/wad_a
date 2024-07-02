@@ -14,7 +14,8 @@ if(isset($_POST["place_order"])){
     VALUES ('$fn','$number','$mail', '$message', '$subject')";
     
     if ($conn->query($insert_message) === TRUE) {
-      echo "New record created successfully";
+  header("Location: order.php");
+  exit();
     } else {
       echo "Error: " . $insert_message . "<br>" . $conn->error;
     }
