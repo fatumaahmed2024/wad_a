@@ -5,26 +5,37 @@
          <div class="banner">
             <h1 >CuppaCorner Cafe</h1> 
            </div>
-           <div class="row">
-           </div>
-               <div class="content">
-               </div>
-
-    
-    
+         
                 
     <h1>Contact Us</h1>
     
-    <p>Hey there! Thanks for reaching out.
-         If you want to get in touch with us, 
-         here's the info you need:
-         <br><br>
-         📞 Phone: +254 123456789
-        📧 Email: new@cuppacorner.com</p>
+    
+<p>🌟 Get in Touch with CuppaCorner Cafe
 
-    <p>
-       You can also swing by our cafe at:
-       123 Coffee Street, Nairobi, Kenya
-    </p>
-    <?php include_once("templates/side_bar.php")?>                
+Have a question, craving, or coffee-related curiosity? We’d love to hear from you! Here’s how you can connect:
+
+📞 Phone
+Give us a ring at [Your Cafe’s Phone Number]. Our friendly team is ready to chat about anything—from our house
+ blend to the weather outside.
+
+📧 Email
+Prefer the digital route? Shoot us an email at [Your Cafe’s Email Address]. Whether it’s feedback, 
+a reservation request, or a secret recipe exchange, we’re all ears.</p><br><br>
+
+<p>📍 Visit Us
+South C , Mugoya Avenue ,Nairobi , Kenya.
+
+Our cozy corner awaits your footsteps. Swing by for a latte, a warm croissant, or just to say hello.
+
+🕒 Opening Hours
+Monday–Friday: 7:00 AM–9:00 PM Saturday–Sunday: 8:00 AM–8:00 PM
+
+🌐 Social Media
+Follow us on Instagram, Facebook, and Twitter ([@CuppaCorner]) for behind-the-scenes glimpses, daily specials, 
+and coffee puns. Let’s be virtual pals!
+
+Remember, at CuppaCorner, every interaction is brewed with care. We can’t wait to connect with you! ☕🌿
+
+[📸 Follow us on Instagram @CuppaCorner for latte art magic!]</p>
+                  
 <?php include_once("templates/footer.php")?>

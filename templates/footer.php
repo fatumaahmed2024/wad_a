@@ -1,5 +1,5 @@
 <div class="footer">
-      Copyright CuppaCorner &copy; Allrights reserverd
+      Copyright CuppaCorner &copy; <?php print date("Y"); ?> - Allrights reserved  
     </div> 
   </body>
 </html>

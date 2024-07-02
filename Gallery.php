@@ -4,10 +4,7 @@
          <div class="banner">
             <h1>Order</h1>
            </div>
-           <div class="row">
-           </div>
-               <div class="content">
-               </div>
+
 
     <img src="images/exterior.jpg" alt="" width="30%">
     <img src="images/f2.jpg" alt="" width="30%">

@@ -5,11 +5,8 @@
          <div class="banner">
             <h1>Menu</h1>
            </div>
-           <div class="row">
-           </div>
-               <div class="content">
-               </div>
-
+           
+    <h1>Our Memorable Dishes</h1>
     <p><table border="1px" cellpadding="5px"style="border: 1px solid #000;
         width:50%; border-collapse:collapse" ></th>
         
