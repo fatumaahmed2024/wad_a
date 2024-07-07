@@ -3,8 +3,8 @@
   include_once ("templates/heading.php");   
   require_once ("templates/nav.php");
 
-  if(isset($GET["DelId"])){
-        $DelId=$GET["DelId"];
+  if(isset($_GET["DelId"])){
+        $DelId=$_GET["DelId"];
 
       // sql to delete a record
       $del_mes = "DELETE FROM messages WHERE messageId='$DelId' LIMIT 1";
