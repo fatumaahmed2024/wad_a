@@ -2,7 +2,7 @@
 <?php require_once ("templates/nav.php");?>    
    
          <div class="banner">
-            <h1>Order</h1>
+            <h1>Our Gallery</h1>
            </div>
 
 

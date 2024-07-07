@@ -2,6 +2,7 @@
 <a href="./">Home</a> 
 <a href="about.php">About Us</a>  
 <a href="menu.php"> Menu </a> 
+<a href="view_messages.php">View Messages  </a> 
  <a href="order.php"> Order </a> 
 <a href="gallery.php">  Gallery</a> 
  

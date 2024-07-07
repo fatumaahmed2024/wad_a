@@ -14,7 +14,7 @@ if(isset($_POST["place_order"])){
     VALUES ('$fn','$number','$mail', '$message', '$subject')";
     
     if ($conn->query($insert_message) === TRUE) {
-  header("Location: order.php");
+  header("Location: view_messages.php");
   exit();
     } else {
       echo "Error: " . $insert_message . "<br>" . $conn->error;
@@ -25,10 +25,9 @@ if(isset($_POST["place_order"])){
          <div class="banner">
             <h1> Place Order</h1>
            </div>
-           <div class="row">
-               <div class="content">
+           
                 <h1>Place Your Order</h1>
-               </div>
+               
 
     <form action="<?php print htmlspecialchars($_SERVER["PHP_SELF"]) ; ?>"
     method= "post" class="order_form"><br>
@@ -58,11 +57,11 @@ if(isset($_POST["place_order"])){
         <br>
         <select name="Destination" id="dn"required>
         <option value="">--Select Destination--</option>
-        <option value=""> South C</option>
-        <option value="">South B</option>
-        <option value="">Eastleigh</option>
-        <option value="">Parklands</option>
-        <option value="">Town</option>
+        <option value="South C"> South C</option>
+        <option value="South B">South B</option>
+        <option value="Eastleigh">Eastleigh</option>
+        <option value="Parklands">Parklands</option>
+        <option value="Town">Town</option>
 
     </select>
 <br><br>

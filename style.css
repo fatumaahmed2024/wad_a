@@ -1,7 +1,6 @@
 body{
     background-color: whitesmoke;
-    margin: 0;
-    box-sizing: border-box;
+    
 
 }
 .toplink{
@@ -38,23 +37,23 @@ body{
 }
 .content{
     float: left;
-    width: 47%;
+    width: 70%;
     padding: 15px;
 }
 .side_bar{
     float: left;
-    width: 47%;
+    width: 30%;
     padding: 15px;
 }
 .footer{
     text-align: center;
     padding: 20px;
-    background-color:rgb(251, 164, 50);
+    background-color: rgb(251, 164, 50);
     color: white;
 }
 .body_index_bg{
     background-color: rgb(24, 212, 193);
-   
+    background-image: url("images/sam.jpg");
 }
 h1{
     text-align: center;
@@ -84,7 +83,7 @@ tr:nth-child(odd){
     background-color: rgb(209, 205, 255);
 }
 tr:hover{
-    background-color:  rgb(255, 255, 255);
+    background-color:  white;
 }
 .order_form label{
     font-size: 1.8em;

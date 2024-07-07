@@ -7,8 +7,7 @@
            </div>
            
     <h1>Our Memorable Dishes</h1>
-    <p><table border="1px" cellpadding="5px"style="border: 1px solid #000;
-        width:50%; border-collapse:collapse" ></th>
+    <table>
         
         <tr>
             

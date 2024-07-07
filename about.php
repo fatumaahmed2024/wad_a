@@ -31,5 +31,5 @@
 
             
 <br>
-<?php include_once("templates/side_bar.php")?>   
+
 <?php include_once("templates/footer.php")?>

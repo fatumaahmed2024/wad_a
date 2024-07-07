@@ -19,7 +19,7 @@
                 welcoming atmosphere. Explore our website to discover more about our menu, events,
                  and how we can make your visit truly special.</p> <br>
 
- <?php include_once("templates/side_bar.php")?>               
+              
 <?php include_once("templates/footer.php")?>
                        
                 
