@@ -6,7 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body onload="DynamicTimer();">
     <p id="grouopa"></p>
     <script>
         document.getElementById('grouopa').innerHTML = "This is my first JS cde";
@@ -19,8 +19,13 @@
 
 <button type="button" onclick="document.getElementById('MyImg').src='images/bulb_off.png'">
     Turn Off</button>
+<br><br>
+<?php date_default_timezone_set("Africa/Nairobi"); ?>
+Static timer: <?php print date("H:i:s"); ?>
+<br>
+Dynamic timer:<span id="dtmer"></span>
 
-    <script src=""></script>
+    <script src="script.js"></script>
     </body>
 </body>
 </html>
