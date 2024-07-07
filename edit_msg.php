@@ -10,32 +10,24 @@ $spot_msg_res = $conn->query($spot_msg);
 
 $spot_msg_row = $spot_msg_res->fetch_assoc();
 
-
-
-
-
-
-
-
-
-
-
-
 if(isset($_POST["update_message"])){
   $fn=mysqli_real_escape_string($conn, $_POST["fullname"]);
   $number=mysqli_real_escape_string($conn, $_POST["number"]);
   $mail=mysqli_real_escape_string($conn, $_POST["email"]);
   $message=mysqli_real_escape_string($conn, $_POST["order_message"]);
   $subject=mysqli_real_escape_string($conn, $_POST["Destination"]);
+  $messageId=mysqli_real_escape_string($conn, $_POST["messageId"]);
     
-    $insert_message = "INSERT INTO messages (sender_name, sender_phone_number, sender_email,text_message,Destination)
-    VALUES ('$fn','$number','$mail', '$message', '$subject')";
+    $update_message = "INSERT INTO messages (sender_name, sender_phone_number, sender_email,text_message,Destination)
+    VALUES (sender_name='$fn',sender_phone_number='$number',sender_email='$mail', text_message='$message', Destination='$subject')";
     
-    if ($conn->query($insert_message) === TRUE) {
+    $update_message="UPDATE messages SET sender_name='$fn',sender_phone_number='$number',
+    sender_email='$mail', text_message='$message', Destination='$subject' WHERE messageId='$messageId'LIMIT 1";
+    if ($conn->query($update_message) === TRUE) {
   header("Location: view_messages.php");
   exit();
     } else {
-      echo "Error: " . $insert_message . "<br>" . $conn->error;
+      echo "Error: " . $update_message . "<br>" . $conn->error;
     }
     }
 ?>
