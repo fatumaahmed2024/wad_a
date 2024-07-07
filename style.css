@@ -66,7 +66,7 @@ h1{
 table{
     border: 1px solid #373737;
     border-collapse: collapse ;
-    width: 70%;
+    width: 80%;
 }
 td{
     border: 1px solid #373737; 
@@ -88,7 +88,7 @@ tr:hover{
 .order_form label{
     font-size: 1.8em;
 }
-/*input[type=text], [type =email] , [type=textarea]{
+input[type=text], [type =email] , [type=textarea]{
     width: 60%;
     padding: 12px 16px;
     font-size: 1.6em;
@@ -107,4 +107,4 @@ input[type=submit]{
     color: azure;
     box-sizing: border-box;
     margin:8px 0 ;
-}*/
+}

@@ -17,6 +17,7 @@
             <th> Sender Email</th>
             <th> Destination</th>
             <th> Time</th>
+            <th> Action</th>
         </tr>
 </thead> 
 <tbody>
@@ -39,7 +40,7 @@
                 <td><?php print $sel_msg_row["sender_email"]; ?></td>
                 <td><?php print "<strong>" .$sel_msg_row["Destination"] .'</strong> - ' .substr($sel_msg_row["text_message"], 0 , 10). '...' ;?></td>
                 <td><?php print date("d-M-Y H:i", strtotime( $sel_msg_row["datecreated"])); ?></td>
-                
+                <td>[<a href="edit_msg.php?messageId=<?php print $sel_msg_row["messageId"]; ?>"> Edit</a> ] [ Del]</td>
         </tr>
              
 <?php    
@@ -57,6 +58,7 @@
                 <th> Sender Email</th>
                 <th> Destination</th>
                 <th> Time</th>
+                <th> Action</th>
         </tr>
       </thead> 
         </table>
