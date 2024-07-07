@@ -43,7 +43,7 @@ Dynamic timer:<span id="dtmer"></span>
 
 <br><br>
 
-
+<button type="button"onclick="window.print();">Print page</button>
 <br><br>
 <br><br>
 <script>
