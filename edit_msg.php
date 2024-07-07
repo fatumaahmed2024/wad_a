@@ -22,11 +22,11 @@ $spot_msg_row = $spot_msg_res->fetch_assoc();
 
 
 if(isset($_POST["update_message"])){
-    $fn=$_POST["fullname"];
-    $number=$_POST["number"];
-    $mail=$_POST["email"];
-    $message=$_POST["order_message"];
-    $subject=$_POST["Destination"];
+  $fn=mysqli_real_escape_string($conn, $_POST["fullname"]);
+  $number=mysqli_real_escape_string($conn, $_POST["number"]);
+  $mail=mysqli_real_escape_string($conn, $_POST["email"]);
+  $message=mysqli_real_escape_string($conn, $_POST["order_message"]);
+  $subject=mysqli_real_escape_string($conn, $_POST["Destination"]);
     
     $insert_message = "INSERT INTO messages (sender_name, sender_phone_number, sender_email,text_message,Destination)
     VALUES ('$fn','$number','$mail', '$message', '$subject')";
