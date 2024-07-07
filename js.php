@@ -25,6 +25,32 @@ Static timer: <?php print date("H:i:s"); ?>
 <br>
 Dynamic timer:<span id="dtmer"></span>
 
+<br><br>
+
+<script>
+    document.write(5*3);
+</script>
+
+<br><br>
+
+<script>
+   //window.alert('Your database is ready!!');
+</script>
+
+<br><br>
+
+<a href=""onclick="return confirm('Are you sure?');">Delete</a>
+
+<br><br>
+
+
+<br><br>
+<br><br>
+<script>
+console.log('Add information here');
+</script>
+
+<br><br>
     <script src="script.js"></script>
     </body>
 </body>

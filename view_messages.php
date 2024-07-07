@@ -56,7 +56,8 @@
                  .substr($sel_msg_row["text_message"], 0 , 10). '...' ;?></td>
                 <td><?php print date("d-M-Y H:i", strtotime( $sel_msg_row["datecreated"])); ?></td>
                 <td>[<a href="edit_msg.php?messageId=<?php print $sel_msg_row["messageId"]; ?>"> Edit</a> ]
-                 [ <a href="?DelId=<?php print $sel_msg_row["messageId"]; ?>">Del</a>]</td>
+                 [ <a href="?DelId=<?php print $sel_msg_row["messageId"]; 
+                 ?>"onclick="return confirm('This action will this message permanently.\nAre you sure you want to proceed?');">Del</a>]</td>
         </tr>
              
 <?php    
