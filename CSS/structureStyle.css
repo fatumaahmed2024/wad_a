@@ -1,0 +1,30 @@
+body{
+    background-color: whitesmoke;
+    margin:0;
+
+}
+.banner{
+    background-color: rgb(83, 81, 78);
+    padding: 10px;
+    text-align: center;
+    color: rgb(233, 233, 233);
+}
+.row:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.footer{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(251, 164, 50);
+    color: white;
+}
+h1{
+    text-align: center;
+    color: rgb(253, 8, 139);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: bold;
+}

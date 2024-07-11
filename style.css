@@ -51,10 +51,7 @@ body{
     background-color: rgb(251, 164, 50);
     color: white;
 }
-.body_index_bg{
-    background-color: rgb(24, 212, 193);
-    background-image: url("images/sam.jpg");
-}
+
 h1{
     text-align: center;
     color: rgb(253, 8, 139);

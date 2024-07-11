@@ -4,10 +4,9 @@
          <div class="banner">
             <h1>Feedback</h1>
            </div>
-           <div class="row">
-            </div>
+
                 <div class="content">
-                </div>
+               
     <p>Welcome to our Award-Worthy Feedback Zone!
         At CuppaCorner, we value your opinion and want to hear from you. 
         This is your chance to share your thoughts, suggestions, and experiences with us.
@@ -29,7 +28,22 @@
         4. If you'd like, you can also nominate our staff members for their outstanding
          service. Let us know who went above and beyond to make your experience memorable.
         <br><br>
-        
 
-<?php include_once("templates/side_bar.php")?>               
+        
+    We read every comment and suggestion and use them as a valuable resource to enhance our
+     offerings.
+    
+    <br><br>
+    Thank you for being a valued customer and for helping us strive for excellence. 
+    We look forward to hearing from you!
+    </p>
+<br><br>
+<p>Write your feedback in the area below</p>
+<textarea name="" 
+id="" cols="30" rows="10"></textarea>
+
+<br><br>
+<input type="submit" value="Send Feedback">
+            
 <?php include_once("templates/footer.php")?>
+</div>

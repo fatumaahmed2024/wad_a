@@ -4,10 +4,9 @@
                <div class="banner">
              <h1 >CuppaCorner Cafe</h1> 
             </div>
-            <div class="row">
-            </div>
+            
                 <div class="content">
-                </div>
+               
 
              <h1>Introduction</h1>
              
@@ -19,8 +18,17 @@
                 welcoming atmosphere. Explore our website to discover more about our menu, events,
                  and how we can make your visit truly special.</p> <br>
 
-              
+                 <p>At CuppaCorner, we believe that every cup of coffee tells a story. 
+                        Our journey began with a passion for creating a community hub where
+                           people could come together and enjoy exceptional food and beverages. 
+                           Inspired by the rich coffee culture of Nairobi, we set out to create
+                           a haven for coffee lovers and food enthusiasts alike.</p><br>
+
+                           <img src="images/coffe.jpg" alt="" width="30%">
+
+            
 <?php include_once("templates/footer.php")?>
+
                        
                 
                 

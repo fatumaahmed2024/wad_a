@@ -1,0 +1,20 @@
+.content{
+    float: left;
+    width: 70%;
+    padding: 15px;
+}
+.side_bar{
+    float: left;
+    width: 30%;
+    padding: 15px;
+}
+img{
+    padding-right: 10px;
+    width: 40%;
+    float: left;
+}
+p, li{
+    text-align: justify; 
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+}
