@@ -118,6 +118,6 @@ color: beige;">
     </div>
         </form>
     </p><br><br><br><br>
-    <p style="text-align: right;">Welcome to the CuppaCorner Cafe!!❤</p> 
+    
 
 <?php include_once("templates/footer.php");?>
