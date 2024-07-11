@@ -45,6 +45,13 @@ Dynamic timer:<span id="dtmer"></span>
 
 <button type="button"onclick="window.print();">Print page</button>
 <br><br>
+
+<script>
+    let streetname=prompt('What is your street name?');
+    var firstname="Alex";
+    const MyAge=40
+    document.write(firstname + "A.K.A" + streetname +" is " + MyAge + " years old.");
+</script>
 <br><br>
 <script>
 console.log('Add information here');
