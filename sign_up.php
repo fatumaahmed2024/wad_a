@@ -51,3 +51,73 @@ if(!isset($_SESSION["error"])){
     
     
     
+    <h4 style=" text-size-adjust: 50%;
+color: beige;">
+<p> 
+
+<div class="card-container">
+      <div class="card">
+
+      <form action="<?php print htmlspecialchars($_SERVER["PHP_SELF"])?>"method="POST">
+<label for="fn">Fullname:</label><br>
+    <input type="text" id="fn" maxlength="50" name="fullname"  required 
+    placeholder="Fullname" autofocus><br><br><br>
+
+    <label for="em"> Email Address:</label><br>
+    <input type="email" id="em"  maxlength="50" name="email_address" required
+    placeholder="Email"><br><br><br>
+
+    <?php if(isset( $_SESSION["wrong_email_format"])){print '<span class="error_form">'.$_SESSION["wrong_email_format"].'</span>';
+     unset ( $_SESSION["wrong_email_format"]);}?><br>
+
+    <label for="um"> Username: </label><br>
+        <input type="text" id="um"  maxlength="50" name="username" required
+        placeholder="Username"><br><br><br>
+
+
+        <label for="age"> Age: </label><br>
+        <input type="number" id="age" 
+        placeholder="age" name="age" required><br><br><br>
+
+
+    <label for="gen">Gender: </label><br>
+        <select name="gender" id="gen" required>
+        <option value="">--Select Gender--</option>
+
+
+
+    <?php 
+            
+            $sel_gen="SELECT * FROM gender ORDER BY  genderId ASC" ;
+            $sel_gen_res = $conn->query($sel_gen);
+            while($sel_gen_row = $sel_gen_res->fetch_assoc()){
+                ?>
+
+                <option value="<?php print $sel_gen_row["gender"];?>"><?php print $sel_gen_row["gender"];?></option>
+                <?php
+            }
+            ?>
+        </select><br><br><br>
+
+    
+
+       
+    <label for="pwd">Password :</label><br>
+    <input type="password" id="pwd" name="passphrase" required
+    placeholder="Password"><br><br><br>
+
+    <label for="pwd"> Confirm Password:</label><br>
+    <input type="password" id="pwd" name="passphrase"
+    placeholder="Password"><br><br>
+
+    <div class="submit">
+<input type="submit" name="signup" value="Sign Up">
+</div>
+    <br><br>
+    </div>
+    </div>
+        </form>
+    </p><br><br><br><br>
+    <p style="text-align: right;">Welcome to the CuppaCorner Cafe!!❤</p> 
+
+<?php include_once("templates/footer.php");?>
