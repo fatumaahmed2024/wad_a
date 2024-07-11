@@ -86,7 +86,7 @@ color: beige;">
 
 
 
-    <?php 
+        <?php 
             
             $sel_gen="SELECT * FROM gender ORDER BY  genderId ASC" ;
             $sel_gen_res = $conn->query($sel_gen);
